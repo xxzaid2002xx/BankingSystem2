@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .asid {
+    width: 200px;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .asid .title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .asid span {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .asid hr {
+    margin: 5px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+
+  .bt1{
+    margin-top: 10px;
+    margin-bottom: 20px; /* تعديل هنا */
+    background-color: #0a27ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    
+  }
+  .bt1:hover{
+    background-color: #5046db;
+  }
+
+  .bt2{
+    margin-top: 10px;
+    margin-bottom: 20px; /* تعديل هنا */
+    background-color: #eb0a0a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 25px;
+    float: left;
+   
+  }
+  .bt2:hover{
+    background-color: #833e3e;
+  }
+  
+  .main {
+    flex-grow: 1;
+  }
+  
+  .table1 {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .table1 th,
+  .table1 td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .table1 th {
+    background-color: #f2f2f2;
+  }
+  
+  .table1 input[type="text"] {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .table1 button {
+    margin-left: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .table1 button:hover {
+    background-color: #45a049;
+  }
+  
+  .table1 th:nth-child(1),
+  .table1 td:nth-child(1) {
+    text-align: center;
+  }
+  
+  .table1 th:nth-child(2),
+  .table1 td:nth-child(2) {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .table1 button:last-child {
+    margin-left: 10px;
+  }
+  

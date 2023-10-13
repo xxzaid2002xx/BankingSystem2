@@ -1,0 +1,177 @@
+/* تصميم العناصر العامة */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.details {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.details:hover {
+    background-color: #45a049;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* تصميم العنصر haed */
+.haed {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#creat {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* تصميم العنصر body */
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bodyhaed {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: #4CAF50;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.cardhaed {
+  margin-bottom: 10px;
+}
+
+.cardbody {
+  font-size: 24px;
+  color: #4CAF50;
+}
+
+/* تصميم العنصر foot */
+.foot {
+  margin-top: 40px;
+}
+
+.table1 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+td {
+  background-color: white;
+}
+
+#tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* تصميم متجاوب */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+
+/* تصميم الزر */
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.input-creat {
+  flex: 1 1 200px;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#creat {
+  flex: 1 1 200px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inSearch {
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btSearch {
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btSearch:hover {
+  background-color: #45a049;
+}
